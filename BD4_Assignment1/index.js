@@ -12,7 +12,7 @@ let db;
 
 (async () => {
   db = await open({
-    filename: './BD4_Assignment1/database.sqlite',
+    filename: '/home/manninookala/BD4_Assignment-1/BD4_Assignment1/database.sqlite',
     driver: sqlite3.Database,
   });
 })();
